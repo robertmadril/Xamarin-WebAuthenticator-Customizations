@@ -116,7 +116,7 @@ namespace Pyx.Mobile.Droid.Identity
 
             var customTabsIntent = builder.Build();
             //THESE FLAGS ARE VERY IMPORTANT. PLEASE READ DOCUMENTATION: https://developer.android.com/reference/android/content/Intent
-            customTabsIntent.Intent.AddFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop | ActivityFlags.);
+            customTabsIntent.Intent.AddFlags(ActivityFlags.ClearTop);
 
             var ctx = Platform.CurrentActivity;
 

@@ -19,11 +19,6 @@ namespace Pyx.Mobile.Droid
             //Trigger the task completion flow to send off to OIDC
             ChromeCustomTabsWebView.OnResume(Intent);
 
-            //Sets an intent on the apps activity in order to bring it to the foreground after a successful browser login/signup
-            var intent = new Intent(this, typeof(MainActivity));
-            intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
-            StartActivity(intent);
-
             Finish();
         }
     }
