@@ -4,11 +4,10 @@ using Android.Content;
 using System;
 using Android.Support.CustomTabs;
 using IdentityModel.OidcClient.Browser;
-using Pyx.Core.Abstraction.Keys;
 using Xamarin.Essentials;
 using Android.Graphics;
 
-namespace Pyx.Mobile.Droid.Identity
+namespace Demo.Mobile.Droid.Identity
 {
     public class ChromeCustomTabsWebView : IBrowser
     {
