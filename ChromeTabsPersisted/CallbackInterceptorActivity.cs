@@ -2,9 +2,9 @@ using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Pyx.Mobile.Droid.Identity;
+using Demo.Mobile.Droid.Identity;
 
-namespace Pyx.Mobile.Droid
+namespace Demo.Mobile.Droid
 {
     [Activity(NoHistory = false, LaunchMode = LaunchMode.SingleTask)]
     [IntentFilter(new[] { Intent.ActionView },
